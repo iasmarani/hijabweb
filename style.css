@@ -1,0 +1,166 @@
+.navbar{
+    background-color: #FF8A80 !important;
+}
+.nav-link{
+    color: whitesmoke !important ;
+    font-weight: bold !important;
+}
+.nav-link:hover{
+    background-color: #FF5252;
+    border-radius: 15PX;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.fa-user-circle{
+    font-size: 30px !important;
+    
+}
+   
+.card1,.card2,.card3{
+    display: flex;
+    box-shadow: 3px 3px 5px rgb(150, 156, 161);
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    color:#FF8A80 ;
+    margin-top: 20px;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+ font-size: 50px !important;
+ margin-right: 10px;
+}
+.mainContent{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 80%;
+    }
+}
+.footer{
+    background-color:#FF8A80 ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.para{
+    font-size: 32px;;
+    font-style: italic;
+    color: dimgray;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+    height: auto !important;
+     margin-bottom: 20px;
+     border: 2px solid black;
+box-shadow: 3px 3px 5px rgb(160, 167, 175); 
+    
+}
+
+
+.card-title{
+    color:#FF8A80 ;
+    
+}
+.btn-primary{
+    background-color:#FF8A80 !important ;
+    border: none;
+    padding: 10px 20px;
+    
+}
+.btn-primary:hover{
+    background-color: #FF5252 !important;
+}
+@media screen and (max-width:600px){
+    .card{
+      
+        width: 100%;
+        
+    
+}
+}
+.card{
+    width: 250px;
+    height:300px;
+    margin-right: 20px;
+    
+    
+
+}
+.product > h2{
+    margin-top: 30px;
+    color:#FF8A80;
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+.more
+{
+    text-align: center;
+} 
+.more> button{
+    background-color:#FF8A80 ;
+    padding: 20px;
+    align-self: center;
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.more > button:hover{
+    background-color:#FF5252 ;
+}
+.about > h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FF8A80;
+    margin-top: 20px;
+   
+}
+.about > p{
+    font-size: 32px;
+    color: dimgray;
+    
+}
+.pic{
+    display: flex;
+
+justify-content: space-around;}
+.pic > img{
+    width: 600px;
+    height: 400px;
+    
+  
+}
+
+.textarea{
+    resize: none;
+    outline: none;
+ margin-top: 40px;
+ display: flex;
+ justify-content: space-around;
+}
+
+.contact > h3{
+    color:#FF8A80;;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+textarea{
+    resize: none;
+}
